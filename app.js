@@ -49,3 +49,5 @@ app.post('/searchAJAX', function(req, res) {
   
 })
 
+module.exports = app;
+
