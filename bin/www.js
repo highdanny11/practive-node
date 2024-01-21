@@ -5,7 +5,7 @@
  */
 
 var app = require('../app');
-var debug = require('debug')('2022-express-example:server');
+var debug = require('debug')('practive-node:server');
 var http = require('http');
 
 /**
