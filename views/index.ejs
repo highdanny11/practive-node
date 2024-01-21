@@ -1,0 +1,13 @@
+<% layout(title) %> 
+  <h1>123</h1>
+  <h2><%- boss%></h2>
+  <% if(show){ %>
+    <span>GOOD</span>
+  <% } %>
+
+  <% course.forEach((item) => {%>
+    <li><%- item%></li>
+  <%})%>
+  <% for(let i = 0; i < course.length; i++){%>
+    <li><%- course[i]%></li>
+  <%}%>
